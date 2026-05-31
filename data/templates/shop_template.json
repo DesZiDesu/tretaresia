@@ -1,0 +1,27 @@
+{
+  "_comment": "Shop JSON Template — ใช้อัปโหลดผ่าน /ร้านอัปโหลด",
+  "shop_name": "My Shop",
+  "description": "คำอธิบายร้านค้า (ไม่บังคับ)",
+  "items": [
+    {
+      "id": "item_001",
+      "name": "ชื่อไอเทม",
+      "price": 100,
+      "description": "คำอธิบายไอเทม",
+      "emoji": "⚔️",
+      "stock": -1,
+      "role_required": "",
+      "image_url": ""
+    },
+    {
+      "id": "item_002",
+      "name": "ไอเทมตัวอย่าง 2",
+      "price": 250,
+      "description": "คำอธิบายไอเทม 2",
+      "emoji": "🛡️",
+      "stock": 10,
+      "role_required": "",
+      "image_url": ""
+    }
+  ]
+}
