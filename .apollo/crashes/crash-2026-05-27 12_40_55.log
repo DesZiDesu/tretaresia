@@ -1,0 +1,5 @@
+Python3 version: 3.6.15
+PIP3 version: 21.3.1
+Git version: 2.30.2
+customer@apollopanel:~# if [[ -d .git ]]; then git pull; fi; if [[ ! -z ${PY_PACKAGES} ]]; then pip3 install -U --prefix .local ${PY_PACKAGES}; fi; if [[ -f /home/container/requirements.txt ]]; then pip3 install -U --prefix .local -r requirements.txt; fi; python3 /home/container/${STARTUP_FILE}
+python3: can't open file '/home/container/main.py': [Errno 2] No such file or directory
